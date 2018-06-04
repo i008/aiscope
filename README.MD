@@ -23,13 +23,13 @@ Check the ./notebooks directory for examples how to predict and train the detect
 
 
 ### Example (inference)
- <img src="ims/example_detection.png" width="750">
+ <img src="ims/example_detection.png" width="650">
 
 ### Augmentation
 
 Augmentation is done in detdata using the amazing imgaug package (https://github.com/aleju/imgaug)
 
- <img src="ims/augment.png" width="750">
+ <img src="ims/augment.png" width="650">
 
 ### Run the demo (docker required)
 
@@ -52,3 +52,7 @@ sudo docker run -p 7777:7777 \
 #open, run, play with demo.ipynb
 
 ```
+### Results
+
+ <img src="ims/tpvsfp.png" width="650">
+ <img src="ims/AP.png" width="650">
