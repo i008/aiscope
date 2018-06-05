@@ -103,3 +103,5 @@ ENV/
 .idea/
 output/
 models/*
+retina_pytorch/model/*
+retina_pytorch/checkpoint/*
